@@ -1,1 +1,12 @@
-theme: jekyll-theme-midnight
+title: Guillaume Lancrenon - FullStack Developper
+description: >- # this means to ignore newlines until "baseurl:"
+  A few things coming to my mind: Javacript, web scrapping, MeteorJS, VueJS, Python...
+#show_downloads: true
+#google_analytics:
+theme: jekyll-theme-cayman
+github_username:  guillim
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+plugins:
+  - jekyll-feed
