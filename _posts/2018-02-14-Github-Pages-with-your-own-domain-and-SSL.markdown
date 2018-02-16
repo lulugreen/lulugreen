@@ -7,6 +7,12 @@ categories: github
 
 You want to set up *your own domain* on github pages using *SSL* ? Here is what you can do  
 
+## Prerequisite
+
+You have a *STATIC* website stored on github.io  
+And you can access your website through the url    
+https://mywebsite.github.io
+
 # 1.  Go to cloudflare.com and register
 
 Why : cloudflare provides free universal SSL _(and other nice things we don't really care right now)_
@@ -17,8 +23,10 @@ What to do:
 *  follow their instructions ([link to cloudflare 'get started' instructions][cloudflareStart])
 
 At the end, Cloudflare will give you two nameservers. They will look like  
+
 > bob.ns.cloudflare.com  
-> tia.ns.cloudflare.com        
+> tia.ns.cloudflare.com
+
 Copy them.
 
 # 2.  Go to your Registrar (the company you paid in order to register your domain)
@@ -38,6 +46,9 @@ Check that Cloudflare has imported every configuration from your registrar DNS z
 Don't forget to activate Cloudflare for each row, by clicking the grey cloud until it turns orange !
 ![turn cloudflare on]( https://ibin.co/3runyY12D8iw.png){:class="img-responsive"}
 
+Set up the 2 CNAME redirections to your github.io static website as bellow:  
+![screenshot]( https://ibin.co/3rvU9gapmYpi.png){:class="img-responsive"}
+
 
 # 4. In Cloudflare admin, Go to _"Crypto"_
 
@@ -54,6 +65,17 @@ you should enable http connection so that there is no downtime to your service. 
 Set up the rule that will force redirection from http to https. Exemple for the website goyllo.com is bellow  
 
 ![screenshot]( https://ibin.co/w800/3rvIGqqgUmY6.png){:class="img-responsive"}
+
+
+# 5. Go to Github
+
+Create a CNAME file
+
+![screenshot]( https://ibin.co/3rvRmwYjjMsd.png){:class="img-responsive"}
+
+Write the url of your website. If you want people to go on your website without www, write: mywebsite.com
+
+![screenshot]( https://ibin.co/3rvSrl4IPHSP.png){:class="img-responsive"}
 
 
 
