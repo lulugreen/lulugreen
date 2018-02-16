@@ -60,14 +60,14 @@ you should enable http connection so that there is no downtime to your service. 
 
 
 
-# 4. In Cloudflare admin, Go to _"Page Rules"_
+# 5. In Cloudflare admin, Go to _"Page Rules"_
 
 Set up the rule that will force redirection from http to https. Exemple for the website goyllo.com is bellow  
 
 ![screenshot]( https://ibin.co/w800/3rvIGqqgUmY6.png){:class="img-responsive"}
 
 
-# 5. Go to Github
+# 6. Go to Github
 
 Create a CNAME file
 
@@ -75,7 +75,7 @@ Create a CNAME file
 
 Write the url of your website. If you want people to go on your website without www, write: mywebsite.com
 
-![screenshot]( https://ibin.co/3rvSrl4IPHSP.png){:class="img-responsive"}
+![screenshot]( https://ibin.co/3rvWZrYlA4TA.png){:class="img-responsive"}
 
 
 
