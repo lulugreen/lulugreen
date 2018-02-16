@@ -55,6 +55,11 @@ Set up the rule that will force redirection from http to https. Exemple for the 
 
 
 ## Ressources
+
+[cvan blog][cvan blog]: Tutorial I followed for the most part
+[cloudflare tuto][cloudflare tuto]: Official ressource from Cloudflare on how to do this
+[dns help][dns help]: What you need to know about DNS is in their FAQ
+
 [dnsexplanation]: https://www.infomaniak.com/en/support/faq/search?q=dns
 [cvan blog]: https://gist.github.com/cvan/8630f847f579f90e0c014dc5199c337b
 [cloudflare tuto]: https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/
