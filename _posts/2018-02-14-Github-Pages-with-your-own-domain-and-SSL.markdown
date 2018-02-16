@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Set up Github Pages with your own domain, and SSL"
-date:   2018-02-15 03:22:48 +0100
+date:   2018-02-14 03:22:48 +0100
 categories: github
 ---
 
@@ -51,8 +51,6 @@ you should enable http connection so that there is no downtime to your service. 
 Set up the rule that will force redirection from http to https. Exemple for the website goyllo.com is bellow  
 
 ![screenshot]( https://ibin.co/w800/3rvIGqqgUmY6.png){:class="img-responsive"}
-
-
 
 
 
