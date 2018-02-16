@@ -5,11 +5,11 @@ date:   2018-02-14 03:22:48 +0100
 categories: github
 ---
 
-You want to set up *your own domain* on github pages using *SSL* ? Here is what you can do  
+You want to set up **your own domain** on github pages using **SSL** ? Here is what you can do  
 
 ## Prerequisite
 
-You have a *STATIC* website stored on github.io  
+You have a **STATIC** website stored on github.io  
 And you can access your website through the url    
 https://mywebsite.github.io
 
@@ -32,7 +32,7 @@ Copy them.
 # 2.  Go to your Registrar (the company you paid in order to register your domain)
 
 *  Inside your Registrar admin panel, change the original nameservers to the two new nameservers from Cloudflare
-   Note that sometimes, the *nameservers* are also called *DNS servers*.  
+   Note that sometimes, the **nameservers** are also called **DNS servers**.  
 
 From now on, the DNS zone of your registrar admin panel is useless.  
 Only the DNS zone from Cloudflare admin panel matters. It means that any DNS modification like adding TXT record, or CNAME... will have to be done through Cloudflare.
@@ -77,6 +77,10 @@ Write the url of your website. If you want people to go on your website without 
 
 ![screenshot]( https://ibin.co/3rvWZrYlA4TA.png){:class="img-responsive"}
 
+# 7.  **WAIT** for a long time...
+
+It may take 1 or 2 days before everything is fully operational. So if you errors like "ERR_SSL_VERSION_OR_CIPHER_MISMATCH" or "SSL_ERROR_NO_CYPHER_OVERLAP" just WAIT.
+DNS propagation in the network can take a while, and registrar usually take it slow...
 
 
 ## Ressources
