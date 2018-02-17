@@ -1,3 +1,3 @@
 # GitHub Page
 
-*Simple Repo for my [Developper blog](https://guillim.github.io)
+*Simple Repo pour mes aventures d´[herboriste](https://lulugreen.github.io)
